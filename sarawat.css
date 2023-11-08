@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+ul,
+figure,
+article {
+    display: block;
+}
+
+body {
+  height: 665px;
+  background-image: url("607c75df1159a8795f76e58f.jpg");
+  background-size: 1500px;
+  font-size: 1em;
+  color: coral;
+}
+
+line {
+  /*line de divisora dentro de los articulos*/
+  background-color: chocolate (89,5,5);
+}
+
+.line {
+  /*line divesor*/
+  height: 4px;
+  margin: 1em 0;
+  overflow: hidden;
+}
+
+nav, article, nav, ul, li, figure {
+ /*boedes redondiados*/
+ -moz-bordes-radius: 20px;
+ -webkit-border-radius:10px;
+ border-radius: 10px;
+}
